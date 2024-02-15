@@ -55,7 +55,7 @@ def recipes_list(request):
                     {"name": "garlic", "quantity": "1 head"},
                     {"name": "onion", "quantity": "1pc"},
                     {"name": "vinegar", "quantity": "1/2cup"},
-                    {"name": "water", "quanity": "1 cup"},
+                    {"name": "water", "quantity": "1 cup"},
                     {"name": "salt", "quantity": "1 tablespoon"},
                     {"name": "whole black peppers", "quantity": "1 tablespoon"},
                     {"name": "pork", "quantity": "1 kilo"},
