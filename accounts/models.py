@@ -9,7 +9,7 @@ class Profile(models.Model):
     short_bio = models.CharField(
         validators=[
             MinLengthValidator(
-                255, "Your short bio should be at least 255 characters long"
+                256, "Your short bio should be more than 255 characters long"
             )
         ]
     )

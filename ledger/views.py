@@ -8,7 +8,7 @@ from .models import Recipe
 class RecipeDetailView(LoginRequiredMixin, DetailView):
     model = Recipe
     template_name = "ledger/recipe-detail.html"
-    redirect_field_name = ""
+    redirect_field_name = "/accounts/login"
 
 
 class RecipeListView(ListView):
